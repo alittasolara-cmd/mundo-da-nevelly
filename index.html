@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Mundo da Nevelly</title>
+
+  <!-- fonte infantil -->
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Fredoka', sans-serif;
+      background-color: #fff0f8;
+      overflow-x: hidden;
+    }
+
+    /* 🌈 abertura */
+    .hero {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #6ecbff, #c77dff, #ff9ad5);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 30px;
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      animation: flutuar 2s infinite ease-in-out;
+    }
+
+    .hero p {
+      font-size: 1.4rem;
+      max-width: 600px;
+    }
+
+    .btn {
+      margin-top: 20px;
+      background-color: white;
+      color: #c77dff;
+      padding: 14px 32px;
+      border-radius: 40px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.1);
+      background-color: #fff7fb;
+    }
+
+    @keyframes flutuar {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+      100% { transform: translateY(0); }
+    }
+
+    /* 🌟 seções */
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2.4rem;
+      color: #7b2cbf;
+      margin-bottom: 15px;
+    }
+
+    section p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 1.15rem;
+      color: #444;
+    }
+
+    .colorida {
+      background-color: #ffe6f2;
+    }
+
+    .colorida2 {
+      background-color: #eaf6ff;
+    }
+
+    /* 💖 rodapé */
+    footer {
+      background-color: #ffd6ec;
+      padding: 25px;
+      text-align: center;
+      color: #7b2cbf;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- 🌈 abertura -->
+  <header class="
